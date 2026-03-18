@@ -8,21 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:lineSpacingExtra="24sp"
-        android:rotationX="30"
-        android:rotationY="6"
-        android:scaleX="2.5"
-        android:text="Чечевица"
-        android:textAlignment="center"
-        android:textColor="#3F51B5"
-        android:textSize="34sp"
-        android:textStyle="italic"
-        android:typeface="sans"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
