@@ -7,26 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonBrowser"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Открыть сайт МИРЭА"
-        android:layout_marginBottom="16dp"
+        android:hint="Введите текст"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonShare"
+        android:id="@+id/buttonCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Поделиться ФИО"
+        android:text="Подсчитать символы"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonBrowser"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextInput"
+        app:layout_constraintVertical_bias="0.277" />
+    tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="338dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
