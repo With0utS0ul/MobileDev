@@ -4,7 +4,7 @@
 
 __1. Передача времени между активностями (IntentApp)__
 
-Требовалось создать приложение с двумя экранами. На первом экране получить текущее системное время, передать его во второй экран через Intent и отобразить там строку: «КВАДРАТ ЗНАЧЕНИЯ МОЕГО НОМЕРА ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ ЧИСЛО, а текущее время ВРЕМЯ». Число – квадрат номера студента по списку.
+Требовалось создать приложение с двумя экранами. На первом экране получить текущее системное время, передать его во второй экран через Intent и отобразить там строку: «КВАДРАТ ЗНАЧЕНИЯ МОЕГО НОМЕРА ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ ЧИСЛО, а текущее время ВРЕМЯ». Число – квадрат номера студента по списку (19).
 
 В модуле IntentApp созданы MainActivity и SecondActivity. В MainActivity при нажатии на кнопку формируется строка с текущим временем, упаковывается в Intent с помощью `putExtra()` и запускается SecondActivity. Во второй активности извлекается переданное время, вычисляется квадрат номера (для номера 19 квадрат равен 361) и выводится в TextView.
 
@@ -37,8 +37,8 @@ tvResult.setText(resultText);
 
 При запуске приложения и нажатии на кнопку открывается второй экран с корректно отформатированным текстом.
 
-![](path/to/screenshot_intentapp_main.png)
-![](path/to/screenshot_intentapp_second.png)
+<img width="445" height="778" alt="image" src="https://github.com/user-attachments/assets/06296545-de41-4bd5-80a1-e86d61d8b2b5" />
+<img width="1180" height="762" alt="image" src="https://github.com/user-attachments/assets/f21e7088-fd75-41cc-a475-5066f69a69be" />
 
 __2. Возврат названия книги (FavoriteBook)__
 
@@ -75,9 +75,9 @@ btnSend.setOnClickListener(v -> {
 
 Приложение корректно передаёт введённое название книги обратно на главный экран.
 
-![](path/to/screenshot_favoritebook_first.png)
-![](path/to/screenshot_favoritebook_second.png)
-![](path/to/screenshot_favoritebook_result.png)
+<img width="1437" height="901" alt="image" src="https://github.com/user-attachments/assets/64d0adcf-2c30-48a4-a463-7ec682bf64db" />
+<img width="1548" height="884" alt="image" src="https://github.com/user-attachments/assets/4ffab2d9-69e8-455b-89da-37ad7775e28a" />
+<img width="815" height="868" alt="image" src="https://github.com/user-attachments/assets/2182b7b4-b1b1-4967-9138-5df14029c256" />
 
 __3. Вызов системных приложений (SystemIntentsApp)__
 
@@ -110,9 +110,10 @@ public void onClickOpenMaps(View view) {
 
 При нажатии на кнопки открываются соответствующие системные приложения. На эмуляторе с Google APIs карты отображают указанные координаты, браузер загружает страницу, открывается диалог набора номера.
 
-![](path/to/screenshot_systemintents_main.png)
-![](path/to/screenshot_systemintents_browser.png)
-![](path/to/screenshot_systemintents_maps.png)
+<img width="1385" height="864" alt="image" src="https://github.com/user-attachments/assets/697e47fa-efc3-4de9-92ae-36bd5084c01a" />
+<img width="525" height="793" alt="image" src="https://github.com/user-attachments/assets/4a9783d0-e031-4c86-9957-60ff04fcdf1e" />
+<img width="563" height="885" alt="image" src="https://github.com/user-attachments/assets/1f61ab23-9275-4184-aa79-70badd5f085a" />
+<img width="690" height="787" alt="image" src="https://github.com/user-attachments/assets/5e611fa1-b0d7-4056-ac91-812a0af246b7" />
 
 __4. Фрагменты и поворот экрана (SimpleFragmentApp)__
 
@@ -171,9 +172,9 @@ __4. Фрагменты и поворот экрана (SimpleFragmentApp)__
 ```
 
 При запуске на телефоне в портретном режиме отображаются кнопки и один фрагмент; при повороте экрана оба фрагмента показываются рядом.
-
-![](path/to/screenshot_fragments_portrait.png)
-![](path/to/screenshot_fragments_landscape.png)
+<img width="1218" height="865" alt="image" src="https://github.com/user-attachments/assets/746f1eb5-a09d-4851-a5cd-aa91863533bb" />
+<img width="855" height="866" alt="image" src="https://github.com/user-attachments/assets/0dd2df35-15b7-48ab-9ba0-848a793526ad" />
+<img width="1067" height="685" alt="image" src="https://github.com/user-attachments/assets/a024d6c9-435e-43e2-9d16-27f695754d45" />
 
 __5. Контрольное задание: навигационное меню и WebView (MireaProject)__
 
@@ -226,10 +227,12 @@ NavigationUI.setupWithNavController(navigationView, navController);
 
 Приложение успешно запускается. В тулбаре отображается иконка «гамбургер», при нажатии на неё выезжает боковое меню. Переключение между фрагментами происходит плавно. WebView корректно отображает веб-страницу.
 
-![](path/to/screenshot_mireaproject_menu.png)
-![](path/to/screenshot_mireaproject_data.png)
-![](path/to/screenshot_mireaproject_webview.png)
+<img width="1442" height="806" alt="image" src="https://github.com/user-attachments/assets/06c6fbe9-ebec-42c6-8c29-b368c77a50d3" />
+<img width="462" height="729" alt="image" src="https://github.com/user-attachments/assets/9fb99aaf-cccd-4b08-a4ee-c63507b01313" />
+<img width="397" height="699" alt="image" src="https://github.com/user-attachments/assets/81652a07-ed03-4c76-8870-edf94f43a4ef" />
+<img width="451" height="724" alt="image" src="https://github.com/user-attachments/assets/cff43043-625b-4a12-8fe5-e9b627255d60" />
 
+Подробные коды можно найти внутри приложенного на GitHub проекта.
 __Вывод__
 
 В ходе выполнения заданий были практически освоены следующие ключевые аспекты разработки под Android:
