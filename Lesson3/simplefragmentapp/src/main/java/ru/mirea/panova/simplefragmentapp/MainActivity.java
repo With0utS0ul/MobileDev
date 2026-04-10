@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 loadFragment(new SecondFragment());
             }
         });
-
-        // По умолчанию показываем первый фрагмент
         if (savedInstanceState == null) {
             loadFragment(new FirstFragment());
         }
