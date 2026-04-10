@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         editTextInput = findViewById(R.id.editText);
         buttonSend = findViewById(R.id.buttonSend);
 
-        // Обработчик нажатия на кнопку
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

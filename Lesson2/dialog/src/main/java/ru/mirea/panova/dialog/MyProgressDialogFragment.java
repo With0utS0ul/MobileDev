@@ -18,7 +18,6 @@ public class MyProgressDialogFragment extends DialogFragment {
         progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progressDialog.setCancelable(false);
 
-        // Имитация длительной операции – закрыть через 2 секунды
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

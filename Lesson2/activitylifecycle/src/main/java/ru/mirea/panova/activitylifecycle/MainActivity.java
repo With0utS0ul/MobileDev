@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         });
         Log.i(TAG, "onCreate()");
 
-        // Проверяем, есть ли сохраненное состояние
         if (savedInstanceState != null) {
             Log.i(TAG, "onCreate() - восстановление сохраненного состояния");
         }
